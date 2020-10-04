@@ -1,11 +1,13 @@
 void setup()
   {
+      
       size(500, 500);
       noLoop();
   }
   void draw()
   {
       //your code here
+      background(0);
       int dieSum = 0;
       for(int y = 60; y<=360; y+=150)
       {
