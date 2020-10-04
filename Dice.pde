@@ -6,7 +6,6 @@ void setup()
   void draw()
   {
       //your code here
-      clear();
       background(0);
       int dieSum = 0;
       for(int y = 60; y<=360; y+=150)
