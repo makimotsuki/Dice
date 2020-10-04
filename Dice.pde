@@ -99,43 +99,43 @@ void setup()
           //your code here
           noStroke();
           fill(200);
-          square(myX, myY, 80);
+          rect(myX, myY, 80, 80);
           fill(0);
           if (one==true)
           {
-            circle(myX+40, myY+40, 20);
+            ellipse(myX+40, myY+40, 20, 20);
           }else if (two==true)
           {
-            circle(myX+25, myY+25, 20);
-            circle(myX+55, myY+55, 20);
+            ellipse(myX+25, myY+25, 20, 20);
+            ellipse(myX+55, myY+55, 20, 20);
           }else if (three==true)
           {
-            circle(myX+15,myY+15,20);
-            circle(myX+40, myY+40, 20);
-            circle(myX+65, myY+65, 20);
+            ellipse(myX+15,myY+15,20,20);
+            ellipse(myX+40, myY+40, 20, 20);
+            ellipse(myX+65, myY+65, 20, 20);
           }else if (four==true)
           {
-            circle(myX+25,myY+25,20);
-            circle(myX+55, myY+25, 20);
-            circle(myX+25, myY+55, 20);
-            circle(myX+55, myY+55, 20);
+            ellipse(myX+25,myY+25,20, 20);
+            ellipse(myX+55, myY+25, 20, 20);
+            ellipse(myX+25, myY+55, 20, 20);
+            ellipse(myX+55, myY+55, 20, 20);
           }
           else if (five==true)
           {
-            circle(myX+15, myY+15,20);
-            circle(myX+65, myY+15,20);
-            circle(myX+40, myY+40, 20);
-            circle(myX+15, myY+65, 20);
-            circle(myX+65, myY+65, 20);
+            ellipse(myX+15, myY+15,20,20);
+            ellipse(myX+65, myY+15,20,20);
+            ellipse(myX+40, myY+40, 20,20);
+            ellipse(myX+15, myY+65, 20,20);
+            ellipse(myX+65, myY+65, 20,20);
           }
           else if (six==true)
           {
-            circle(myX+25, myY+15,20);
-            circle(myX+25, myY+40, 20);
-            circle(myX+25, myY+65, 20);
-            circle(myX+55, myY+15,20);
-            circle(myX+55, myY+40, 20);
-            circle(myX+55, myY+65, 20);
+            ellipse(myX+25, myY+15,20,20);
+            ellipse(myX+25, myY+40, 20,20);
+            ellipse(myX+25, myY+65, 20,20);
+            ellipse(myX+55, myY+15,20,20);
+            ellipse(myX+55, myY+40, 20,20);
+            ellipse(myX+55, myY+65, 20,20);
           }
       }
   }
