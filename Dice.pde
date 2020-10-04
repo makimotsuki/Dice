@@ -41,7 +41,6 @@ void setup()
           
         }
       }
-      System.out.println(dieSum);
       fill(0, 152,153);
       textSize(40);
       text("The sum of dots is: " + dieSum, 40, 490);
