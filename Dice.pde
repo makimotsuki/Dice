@@ -1,4 +1,4 @@
-oid setup()
+void setup()
   {
       size(500, 500);
       noLoop();
